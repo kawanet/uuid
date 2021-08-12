@@ -1,6 +1,6 @@
 # @kawanet/uuid
-[![Node.js CI](https://github.com/kawanet/uuid/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/kawanet/uuid/actions/)
-[![npm version](https://badge.fury.io/js/@kawanet/uuid.svg)](https://www.npmjs.com/package/@kawanet/uuid)
+[![Node.js CI](https://github.com/kawanet/uuid/workflows/Node.js%20CI/badge.svg?branch=main)](https://github.com/kawanet/uuid/actions/)
+[![npm version](https://badge.fury.io/js/@kawanet%2Fuuid.svg)](https://www.npmjs.com/package/@kawanet/uuid)
 
 All I need is UUID v4()
 
