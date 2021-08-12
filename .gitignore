@@ -1,0 +1,10 @@
+*.tgz
+*~
+.DS_Store
+.Thumbs
+._*
+.idea/
+node_modules
+npm-debug.log*
+package-lock.json
+test/*.js

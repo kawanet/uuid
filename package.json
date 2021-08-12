@@ -1,0 +1,45 @@
+{
+  "name": "@kawanet/uuid",
+  "description": "All I need is UUID v4()",
+  "version": "8.3.0",
+  "author": "@kawanet",
+  "bugs": {
+    "url": "https://github.com/kawanet/uuid/issues"
+  },
+  "devDependencies": {
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.6.0",
+    "@types/uuid": "^8.3.1",
+    "browserify": "^17.0.0",
+    "mocha": "^9.0.3",
+    "typescript": "^4.3.5",
+    "uuid": "^8.3.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist/*.js",
+    "*.js",
+    "*.d.ts"
+  ],
+  "homepage": "https://github.com/kawanet/uuid#readme",
+  "keywords": [
+    "UUIDv4",
+    "rfc4122",
+    "uuid"
+  ],
+  "license": "MIT",
+  "main": "uuid.js",
+  "mocha": {
+    "checkLeaks": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kawanet/uuid.git"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p .",
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "types": "uuid.d.ts"
+}
